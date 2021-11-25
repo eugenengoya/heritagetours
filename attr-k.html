@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Attractions</title>
+  <link rel="stylesheet" type="text/css" href="css/attr.css" />
+</head>
+<body>
+  <nav class="zone blue sticky">
+    <ul class="main-nav">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="#">Booking</a></li>
+        <div class="dropdown">
+        <li><a href="#">What To Do ↓</a></li>              
+            <div class="dropdown-content">
+              <a href="museums.html">Museums</a>
+              <a href="#">Shopping</a>
+              <a href="#">Restaurants</a>
+              <a href="attractions.html">Attractions</a>
+            </div>
+        </div>
+        <li><a href="#">Contact</a></li>
+        <li><a href="login.php">Log In</a></li>
+    </ul>
+</nav>
+  <div class="container">
+    <img class="cover" src="img/cover.jpg" />
+    <div class="coverText">
+      <h1>Kitengela Hot Glass</h1>
+    </div>
+  </div>
+  <div class="zone blue grid-wrapper">
+    <div class="card zone"><img src="img/kitengela.jpg" /></div>
+    <div class="card zone">
+      <div class="text">
+        <h1>Kitengela Hot Glass</h1>
+        <p>
+          Each item in Kitengela Hot Glass studio is handmade and unique. Everything is also entirely made out of scrap glass, reimagined into functional art pieces. Inside the studio, you can see the craftsmen at work, casting objects like beads, goblets, and vases. Colored glass panels are also used to adorn chandeliers, window panels, and decorative mosaics, which you might see in Kenyan church windows, hotels, government ministries, embassies, as well as private homes. 
+        </p>
+        <h2>Activities</h2>
+        <ul>
+          <li>
+            Glassblowing demos
+          </li>
+          <li>
+            Shopping
+          </li>
+          <li>
+            Accommodation
+          </li>
+    
+        </ul>
+      </div>
+    </div>
+    <div class="card zone">
+
+      <div> class="mapouter"><div class="gmap_canvas">
+        <iframe width="500" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=kitengela%20hot%20glass%20ltd.%20studio&t=&z=11&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
+        </iframe><a href="https://www.whatismyip-address.com/elementor/">elementor discount</a>
+      </div>
+        <style>.mapouter {
+        position: relative;
+        text-align: right;
+        height: 300px;
+        width: 500px;
+      }
+      .gmap_canvas {
+        overflow: hidden;
+        background: none!important;
+        height: 300px;
+        width: 500px;
+      }
+      </style>
+      </div>
+
+      <div class="text">
+        <h1>Book</h1>
+        <h2>Price</h2>
+        <p>Ksh. 2000</p>
+        <form method=post action="php/book.php">
+          <div class="input-container">
+            <i class="fa fa-user icon"></i>
+            <input class="input-field" type="date" placeholder="Date" name="date" />
+          </div>
+          <div class="input-container">
+            <i class="fa fa-envelope icon"></i>
+            <input class="input-field" type="text" placeholder="No. of people" name="people" />
+          </div>
+          <button type="submit">Book</button>
+        </form>
+      </div>
+    </div>
+  </div>
+  <footer class="zone">
+    <p>2020</p>
+  </footer>
+</body>
+</html>
