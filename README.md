@@ -1,5 +1,4 @@
 # heritagetours
-
 This project gives information of various cultural activities that the Kenya has to offer. It provides a way for booking and visiting these places.
 
 Objectives
